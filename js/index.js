@@ -1,9 +1,3 @@
-$(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
-    });
-    $("#show").click(function(){
-        $("p").show();
-        $("#"+divId).toggle();
-    });    
-});
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
