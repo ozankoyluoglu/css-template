@@ -34,3 +34,15 @@ $(document).ready(function() {
         return false;
     });
 });
+
+
+
+$.fn.extend({
+  toggleText: function(a, b) {
+    if (this.html() == a) {
+      this.html(b)
+    } else {
+      this.html(a)
+    }
+  }
+});
