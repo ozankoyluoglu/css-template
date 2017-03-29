@@ -1,0 +1,125 @@
+/* OxO.css */
+/* http://oxocss.blogspot.com/ */ 
+/* #DD4814, #333333 */
+
+a.link:link, a.link:visited, a.link:active {color: #00A598;
+background-color: #FFFFFF;
+text-decoration: none;
+}
+
+a.link:hover {color: #00A598;
+background-color: #FFFFFF;
+text-decoration: underline;
+}
+
+a.img:link, a.img:visited, a.img:active, a.img:hover {background-color: #00A598;
+padding: 0px;
+border: 0px none;
+text-decoration: none;
+}
+
+a.imgtext:link, a.imgtext:visited, a.imgtext:active {background-color: #FDB515;
+color: #FFFFFF;
+padding: 0px;
+border: 0px none;
+text-decoration: none;
+}
+
+a.imgtext:hover {background-color: #FFFFFF;
+color: #FDB515;
+padding: 0px;
+border: 0px none;
+text-decoration: none;
+}
+
+a.imgcc:link, a.imgcc:visited, a.imgcc:active, a.imgcc:hover {background-color: #FDB515;
+padding: 0px;
+border: 0px none;
+text-decoration: none;
+}
+
+a.imgff:link, a.imgff:visited, a.imgff:active, a.imgff:hover {background-color: #FFFFFF;
+color: #FFFFFF;
+padding: 0px;
+border: 0px none;
+text-decoration: none;
+}
+
+h1 {
+padding-left: 5px;
+}
+
+h3 {
+padding-left: 5px;
+}
+
+h4 {
+padding-left: 5px;
+}
+
+p {
+padding-left: 5px;
+padding-right: 5px;
+}
+
+a.menu:link, a.menu:visited, a.menu:active {color: #FFFFFF;
+background-color: #00A598;
+padding: 0px;
+text-decoration: none;
+}
+
+a.current:link, a.current:visited, a.current:active {color: #003262;
+background-color: #FFFFFF;
+padding: 0px;
+text-decoration: none;
+}
+
+a.menu:hover, a.current:hover {color: #003262;
+background-color: #FFFFFF;
+text-decoration: none;
+}
+
+img.leftfloat {
+float: left; 
+margin: 4px; 
+}
+
+img.rightfloat { 
+float: right; 
+margin: 4px; 
+}
+
+td.color3 {background-color: #003262;
+}
+
+td.color2 {background-color: #00A598;
+}
+
+td.color1 {background-color: #FFFFFF;
+}
+
+body.OxO {background-color: #FFFFFF;
+}
+
+table.OxO {background-color: #FFFFFF;
+}
+
+font.color1 {color: #FFFFFF;
+}
+
+font.color3 {color: #003262;
+}
+
+div.hidden {display: none;
+background-color: #00A598;
+padding: 5px 10px;
+}
+
+div.hiddenff {display: none;
+padding: 0px 0px;
+}
+
+li { margin-top: 0.5em; 
+}
+
+
