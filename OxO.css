@@ -1,6 +1,6 @@
-div.morecontent span {
+.morecontent span {
     display: none;
 }
-div.morelink {
+.morelink {
     display: block;
 }
