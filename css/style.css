@@ -1,6 +1,21 @@
-.morecontent span {
-    display: none;
+body {
+  padding: 1em;
 }
-.morelink {
-    display: block;
+
+#target {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid;
+}
+
+[aria-hidden='true'],
+[data-a11y-toggle]:not([aria-controls]) {
+  display: none;
+}
+
+/**
+ * See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+ */
+[role="button"] {
+  cursor: pointer;
 }
