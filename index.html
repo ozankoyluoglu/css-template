@@ -1,39 +1,25 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>jQuery Read More/Less Toggle</title>
-  
-  
-    <script src="js/index.js"></script>
-  
-   
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
 </head>
-
 <body>
-  <html>
-  <head>
-    <title>jQuery Read More/Less Toggle Example</title>
-  </head>
-  <body>
 
-    
-    <span role="button" tabindex="0" data-a11y-toggle="target">
-  Toggle content »
-</span>
+<p>If you click on the "Hide" button, I will disappear.</p>
 
-<div id="target">
-  Some content…
-</div>
-    
-    
-    </body>
-  
-  
-</html>
-
+<button id="hide">Hide</button>
+<button id="show">Show</button>
 
 </body>
 </html>
+
